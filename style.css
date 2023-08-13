@@ -1,0 +1,32 @@
+.parent {
+    background: grey;
+    min-height: 48vh;
+    padding: 1rem;
+    font-size: 2rem;
+    /* position: relative; */
+}
+
+.parent div {
+    min-height: 150px;
+}
+.c1{
+    background: red;
+    position: sticky;
+    top: 0;
+}
+
+.c2{
+    background: blue;
+    color: white;
+
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    
+    right: 250px;
+    bottom: 50px;
+}
+
+.c3{
+    background: green;
+}
